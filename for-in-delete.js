@@ -40,9 +40,15 @@
 */
 
 function showValues( obj ) {
-  //Code Here
-}
+  let str = ''
+  for (let key in obj){
+    str = str + obj[key]
 
+  }
+  return str
+}
+console.log(showValues[obj])
+ 
 
 
 ////////// PROBLEM 2 //////////
@@ -53,7 +59,16 @@ function showValues( obj ) {
   Return the updated object.
 */
 
-//Code Here
+function greaterThan10(obj){
+  for(let key in obj){
+    if(obj[key] > 10){
+      obj[key] = 0
+    }
+    
+  } 
+  return obj
+
+}
 
 
 

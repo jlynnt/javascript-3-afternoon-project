@@ -17,8 +17,7 @@ let product = {
   imageUrl: 'https://i.ebayimg.com/images/g/9T4AAOSwbmdZf2jN/s-l640.jpg'
 }
 
-// code here
-
+let productCopy = {...product}
 
 
 
@@ -28,8 +27,7 @@ let product = {
 
 let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 
-// code here
-
+let colorsCopy = [...colors]
 
 
 
@@ -43,7 +41,7 @@ function addNums(num1, num2, num3) {
   return num1 + num2 + num3;
 }
 
-// code here
+result(4, 6, 10)
 
 
 ////////// PROBLEM 4 //////////
